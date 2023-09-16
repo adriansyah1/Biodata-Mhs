@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar4"
+        android:layout_alignParentTop="true"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/img"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/img"
+        android:textSize="20dp"
+        android:text="Universitas Amikom Yogyakarta"
+        android:fontFamily="@font/poppinssemibold"
+        android:id="@+id/txt1" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/siu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img1"
+        android:text="Adriansyah"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt2"
+        android:text="20.01.4534"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt3"
+        android:text="Teknik Informatika"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt4"/>
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt4"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/gambar1" />
+
+
+</RelativeLayout>
